@@ -1,5 +1,9 @@
 # Genetic Algorithm & Particle Swarm Optimization
+
+What happens when two different population-based optimization algorithms explore the same landscape?
+
 This project implements **Genetic Algorithm (GA)** and **Particle Swarm Optimization (PSO)** and experiments with their behavior on a collection of mathematical optimization problems.
+
 The algorithms are tested on both **unimodal** and **multimodal** benchmark functions, making it possible to observe how different optimization landscapes affect their search.
 
 ## Algorithms
@@ -41,15 +45,17 @@ Install the required dependencies:
 
     pip install numpy pandas
 
-Then run:
+Run the experiments with:
 
-    python main.py
+    python test.py
 
-The experiments generate CSV files containing the results of the optimization runs.
+Running `test.py` executes the experiments and generates the result CSV files in the `results/` directory.
+
+The `main.py` file contains the main project entry point and algorithm setup.
 
 ## Results
 
-The results include:
+The generated results include:
 
 - Average fitness
 - Standard deviation
