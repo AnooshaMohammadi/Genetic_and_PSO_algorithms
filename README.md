@@ -45,13 +45,17 @@ Install the required dependencies:
 
     pip install numpy pandas
 
-Run the experiments with:
+### Experimenting with the Algorithms
+
+Use `test.py` to experiment with the algorithms and their parameters. It provides immediate results directly in the console, making it useful for trying different configurations and seeing how the algorithms behave.
 
     python test.py
 
-Running `test.py` executes the experiments and generates the result CSV files in the `results/` directory.
+### Running the Full Experiment
 
-The `main.py` file contains the main project entry point and algorithm setup.
+Use `main.py` to run the main experiment. The results are saved as CSV files in the `results/` directory.
+
+    python main.py
 
 ## Results
 
